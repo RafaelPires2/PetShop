@@ -1,20 +1,33 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
 body{
-    background-image: url('../components/images/DOG1.jpg');
+    background-image: url("/components/images/DOG1.jpg");
+    background-size:cover;
+    background-position:center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     max-width: 1200px;
-    margin: 0px;
     font-family: poppinsregular;
     padding: 15px;
-}
+
+    /*background-image: url("/components/images/DOG2.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;*/
+    
+   
+    }
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
     }
-
+   
 li{
     display: inline-block;
     margin-right:20px;
@@ -23,5 +36,14 @@ li{
 #logo{
     width: 250px;
     margin-top: -70px;
+    }
+
+main{
+    max-width: 1200px;
+    background-image: url("/components/images/DOG2.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin:0px;
     
-}
+}    
