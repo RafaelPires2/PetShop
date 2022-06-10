@@ -1,0 +1,27 @@
+body{
+    background-image: url('../components/images/DOG1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0px;
+    font-family: poppinsregular;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+li{
+    display: inline-block;
+    margin-right:20px;
+    }
+
+#logo{
+    width: 250px;
+    margin-top: -70px;
+    
+}
