@@ -5,34 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>RafaPets</title>
 </head>
 <body>
     <div class="container">
-    <header>
-        <div class="logo">
-            <img src="./css/image/LogoPetShop.png" alt="logo">
-        </div>
-        <nav class="menu-nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>O Melhor VET</h1>
-            <h1><span>Para Seu PET</span></h1>
-            <button type="button">Ver Produtos</button>
-         </section>
-        <aside>
-            <img src="./css/image/pets1.png" alt="Imagem cachorro e gato">
-        </aside>
-    </main>
+        <main class="content">
+            <header class="header">
+                <div class="containerLogo">
+                   <img class="logo" src="./css/image/LogoPetShop.png" alt="logo"/>
+                </div>
+                   <nav class="menu-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+                </nav>
+                <div id="price">
+                    <img id="cart" src="./css/image/cart.png" alt="Carrinho" />
+                    <p>R$ 11.11</p>
+                    <img src="./css/image/Polygon.png" alt="Seta" />
+                </div>
+            </header>
+                <section class="hero">
+                   <div class="heroContent">
+                        <h1 class="heroTitle">O Melhor VET</h1>
+                        <h1 class="heroTitle"><span>Para Seu PET</span></h1>
+                        <h2 class="subTitle">Os melhores produtos e melhores preços.</h2>
+                        <h2 class="subTitle">Tudo que seu PET merece.</h2>
+                        <button class="btnProdutos" type="button">Ver Produtos</button>
+                    </div>
+                    <img id="imgDog" src="./css/image/pets1.png" alt="Imagem cachorro e gato">
+                 </section>
+                </main>
+    <!-- <section class="sectionProdutos">
+        <h3>Teste</h3>
+    </section> -->  
     </div>
 </body>
 </html>
