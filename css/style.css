@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Inicio header */
+#price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cart{
+    background: black;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid black;
+}
+#cart:hover{
+    background: hsl(0, 96%, 31%);
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid black;
+}
+#price p{
+    padding: 8px;
+}
+.header{
+    width: 100vw;
+    max-width: 1187px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-nav li{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+}
+.menu-nav li a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border:none;
+}
+.menu-nav li a:hover{
+    background: black;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border:none;   
+    transition: all 0.4s;
+    color:red;
+    
+}
+.logo{
+    width: 100%;
+}
+.containerLogo{
+    width: 150px;
+}
+/* Fechamento header */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #EBC400;  
+    }
+.content{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+/* Inicio section hero */
+.hero{
+    display: flex;
+    max-width: 1187px;
+}
+.heroContent{
+    margin: 20px 30px 0px 0px;
+}
+.heroTitle{
+    font-size: 3rem;
+}
+.subTitle{
+    margin-top: 15px;
+}
+.btnProdutos{
+    width:300px;
+    height: 50px;
+    background: black;
+    color:white;
+    font-size: 20px;
+    border-radius: 15px;
+    border:none;
+    margin-top: 35px;
+    }
+    .btnProdutos:hover{
+       color:red;
+       cursor: pointer;
+        }
+/* Fechamento sextion hero */
+#imgDog{
+    width: 48.31rem;
+    height: 38.68rem;
+}
+/* Inicio section produtos */
+.sectionProdutos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+    background: red;
+}
+/* Fechamento section produtos */
+
+
